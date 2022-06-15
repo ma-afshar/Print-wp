@@ -1,0 +1,776 @@
+/* Use of new font ====================================================== */
+@font-face {
+    font-family: myfont-Yekan;
+    src: url(../media/fonts/Yekan.ttf);
+}
+@font-face {
+    font-family: myfont-IranNastaliq;
+    src: url(../media/fonts/IranNastaliq.ttf);
+}
+@font-face {
+    font-family: myfont-Bnazanin;
+    src: url(../media/fonts/Bnazanin.ttf);
+}
+/* Initial styling of the site ========================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+html{
+    overflow: auto;
+}
+body{
+    width: 90vw;
+    height: 500vh;
+    margin: auto;
+}
+
+/* page header_1 =========================================================== */
+#ph1_con{
+    width: 100%;
+    height: 3vh;
+    margin-top: 5px;
+}
+#ph1c_a{
+    text-decoration: none;
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    margin: auto;
+}
+#ph1c_a:hover{
+    color: #aaa;
+}
+.ph1ca_h4{
+    font-family: myfont-Yekan;
+}
+#ph1ca_h4-1{
+    font-size: 13px;
+    padding-top: 6px;
+    letter-spacing: .5px;
+}
+#ph1ca_h4-2{
+    font-size: 11px;
+    padding-top: 9.2px;
+}
+#ph1ca_img{
+    height: 100%;
+    margin: 0 4.3px 0 5.3px;
+}
+#ph1_hr{
+    background-color: #ddd;
+    height: 1px;
+    border: 0;
+    margin-top: 5px;
+}
+
+/* page header_2 =========================================================== */
+#ph2_con{
+    width: 100%;
+    height: 45vh;
+    margin-top: 5px;
+}
+#ph2c_con{
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+#ph2cc_a{
+    text-decoration: none;
+    width: 30%;
+    height: 70%;
+}
+#ph2cca_img{
+    width: 100%;
+    height: 100%;
+}
+#ph2cc_h2{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: myfont-IranNastaliq;
+    color: #333;
+    line-height: 50px;
+    word-spacing: 4px;
+    word-break: normal;
+    cursor: default;
+}
+#ph2_hr{
+    background-color: #ddd;
+    height: 2px;
+    border: 0;
+    margin-top: 5px;
+}
+
+/* page information table ================================================== */
+#pit_con{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pitc_table {
+    width: 90%;
+    height: 65%;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+.tds_bcolor{
+    background-color: #ccc;
+}
+.tds_fweight{
+    font-weight: 600;
+}
+#pitc_table td {
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-family: myfont-Bnazanin;
+    font-size: 19px;
+    color: #222;
+    text-align: center;
+}
+
+/* page description_1 ====================================================== */
+#pd1_con{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#pd1c_title{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+#pd1ct_h2{
+    font-family: myfont-Bnazanin;
+    font-size: 22px;
+}
+#pd1c_con{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+#pd1cc_p{
+    width: 99%;
+    height: 95%;
+    font-family: myfont-Yekan;
+    line-height: 35px;    
+    direction: rtl;
+}
+
+/* page description_2 ====================================================== */
+#pd2_con{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#pd2c_title{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+#pd2ct_h2{
+    font-family: myfont-Bnazanin;
+    font-size: 22px;
+}
+#pd2c_con{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+#pd2cc_p{
+    width: 99%;
+    height: 95%;
+    font-family: myfont-Yekan;
+    line-height: 35px;    
+    direction: rtl;
+}
+
+/* page description_3 ====================================================== */
+#pd3_con{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#pd3c_title{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+#pd3ct_h2{
+    font-family: myfont-Bnazanin;
+    font-size: 22px;
+}
+#pd3c_con{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+#pd3cc_p{
+    width: 99%;
+    height: 95%;
+    font-family: myfont-Yekan;
+    line-height: 35px;    
+    direction: rtl;
+}
+
+/* page description_4 ====================================================== */
+#pd4_con{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#pd4c_title{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+#pd4ct_h2{
+    font-family: myfont-Bnazanin;
+    font-size: 22px;
+}
+#pd4c_con{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pd4cc_table {
+    width: 100%;
+    height: 85%;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+.tds_bcolor{
+    background-color: #ccc;
+}
+.tds_fweight{
+    font-weight: 600;
+}
+#pd4cc_table td {
+    direction: rtl;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-family: myfont-Bnazanin;
+    font-size: 19px;
+    color: #222;
+    text-align: center;
+}
+
+/* page description_5 ====================================================== */
+#pd5_con{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#pd5c_title{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+#pd5ct_h2{
+    font-family: myfont-Bnazanin;
+    font-size: 22px;
+}
+#pd5c_con{
+    width: 90%;
+    height: 85%;
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr 1fr 1fr 1fr;
+    border-radius: 10px;
+    margin:auto;
+}
+.divs_setting{
+    display: flex;
+    flex-direction: column;
+    font-family: myfont-Yekan;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 2px;
+}
+.h4s_setting{
+    display: flex;
+    justify-content: center;
+}
+
+/* page description_6 ====================================================== */
+#pd6_con{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#pd6c_title{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+#pd6ct_h2{
+    font-family: myfont-Bnazanin;
+    font-size: 22px;
+}
+#pd6c_con{
+    width: 90%;
+    height: 85%;
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr 1fr 1fr 1fr;
+    border-radius: 10px;
+    margin:auto;
+}
+.divs_setting{
+    display: flex;
+    flex-direction: column;
+    font-family: myfont-Yekan;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 2px;
+}
+.h4s_setting{
+    display: flex;
+    justify-content: center;
+}
+
+/* Page at the time of print =============================================== */
+@media print {
+    /* Initial setting for page -------------------------------------------- */
+    @page{
+        size: 21cm 29.7cm;
+        margin: 0;
+    }
+    /* Initial styling of the site [at print time] ------------------------- */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    html{
+        overflow: auto;
+        margin-top: 20px;
+    }
+    body{
+        width: 95vw;
+        height: 196.5vh;
+        margin: auto;
+    }
+    /* page header_1 [at print time] ----------------------------------------- */
+    #ph1_con{
+        width: 100%;
+        height: 2vh;
+        margin-top: 0;
+        border-bottom: 1px solid #ddd;
+    }
+    #ph1c_a{
+        text-decoration: none;
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        height: 100%;
+        margin: auto;
+    }
+    #ph1ca_h4-1{
+        color: #eee;
+        font-size: 7px;
+        padding-top: 0px;
+        letter-spacing: .5px;
+        margin-top: 6px;
+    }
+    #ph1ca_h4-2{
+        color: #eee;
+        font-size: 6.5px;
+        padding-top: 0px;
+        margin-top: 7.5px;
+    }
+    #ph1ca_img{
+        height: 60%;
+        margin: 0 2px 0 2.3px;
+    }
+    #ph1_hr{display: none;}
+    
+    /* page header_2 [at print time] ----------------------------------------- */
+    #ph2_con{
+        width: 100%;
+        height: 12vh;
+        margin-top: 0px;
+        border-bottom: 1px solid #bbb;
+    }
+    #ph2c_con{
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        margin: auto;
+    }
+    #ph2cc_a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 30%;
+        height: 65%;
+    }
+    #ph2cca_img{
+        width: 80%;
+        height: 100%;
+    }
+    #ph2cc_h2{
+        height: 25%;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        font-size: 10px;
+        font-family: myfont-IranNastaliq;
+        color: #333;
+        line-height: 50px;
+        word-spacing: 4px;
+        word-break: normal;
+        cursor: default;
+    }
+    #ph2_hr{display: none;}
+    /* page information table [at print time] -------------------------------- */
+    #pit_con{
+        width: 100%;
+        height: 10.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    #pitc_table {
+        width: 90%;
+        height: 65%;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+    .tds_bcolor{
+        background-color: #ccc;
+    }
+    .tds_fweight{
+        font-weight: 600;
+    }
+    #pitc_table td {
+        border: 1px solid #333;
+        border-radius: 5px;
+        font-family: myfont-Bnazanin;
+        font-size: 7px;
+        color: #222;
+        text-align: center;
+    }
+    /* page description_1 [at print time] ------------------------------------ */
+    #pd1_con{
+        width: 100%;
+        height: 24vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    #pd1c_title{
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+    #pd1ct_h2{
+        font-family: myfont-Bnazanin;
+        font-size: 9px;
+    }
+    #pd1c_con{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+    }
+    #pd1cc_p{
+        font-size: 9px;
+        width: 99%;
+        height: 95%;
+        font-family: myfont-Yekan;
+        line-height: 18px;    
+        direction: rtl;
+    }
+    /* page description_2 [at print time] ------------------------------------ */
+    #pd2_con{
+        width: 100%;
+        height: 24vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    #pd2c_title{
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+    #pd2ct_h2{
+        font-family: myfont-Bnazanin;
+        font-size: 9px;
+    }
+    #pd2c_con{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+    }
+    #pd2cc_p{
+        font-size: 9px;
+        width: 99%;
+        height: 95%;
+        font-family: myfont-Yekan;
+        line-height: 18px;    
+        direction: rtl;
+    }
+    /* page description_3 [at print time] ------------------------------------ */
+    #pd3_con{
+        width: 100%;
+        height: 24vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    #pd3c_title{
+        width: 90%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+    #pd3ct_h2{
+        font-family: myfont-Bnazanin;
+        font-size: 9px;
+    }
+    #pd3c_con{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+    }
+    #pd3cc_p{
+        font-size: 9px;
+        width: 99%;
+        height: 95%;
+        font-family: myfont-Yekan;
+        line-height: 18px;    
+        direction: rtl;
+    }    
+    /* page description_4 [at print time] ------------------------------------ */
+    #pd4_con{
+        margin-top: 2vh;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+        padding-top: 40px;
+    }
+    #pd4c_title{
+        width: 90%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+    #pd4ct_h2{
+        font-family: myfont-Bnazanin;
+        font-size: 9px;
+    }
+    #pd4c_con{
+        width: 90%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    #pd4cc_table {
+        width: 100%;
+        height: 85%;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+    .tds_bcolor{
+        background-color: #ccc;
+    }
+    .tds_fweight{
+        font-weight: 600;
+    }
+    #pd4cc_table td {
+        direction: rtl;
+        border: 1px solid #333;
+        border-radius: 5px;
+        font-family: myfont-Bnazanin;
+        font-size: 9px;
+        color: #222;
+        text-align: center;
+    }
+    /* page description_5 [at print time] ------------------------------------ */
+    #pd5_con{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    #pd5c_title{
+        width: 90%;
+        height: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+    #pd5ct_h2{
+        font-family: myfont-Bnazanin;
+        font-size: 9px;
+    }
+    #pd5c_con{
+        width: 90%;
+        height: 85%;
+        display: grid;
+        grid-template: 1fr 1fr/1fr 1fr 1fr 1fr 1fr;
+        border-radius: 10px;
+        margin:auto;
+    }
+    .divs_setting{
+        font-size: 9px;
+        display: flex;
+        flex-direction: column;
+        font-family: myfont-Yekan;
+        border: 2px solid #333;
+        border-radius: 10px;
+        margin: 2px;
+    }
+    .h4s_setting{
+        display: flex;
+        justify-content: center;
+    }
+    /* page description_6 [at print time] ------------------------------------ */
+    #pd6_con{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    #pd6c_title{
+        width: 90%;
+        height: 9%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccc;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+    #pd6ct_h2{
+        font-family: myfont-Bnazanin;
+        font-size: 9px;
+    }
+    #pd6c_con{
+        width: 90%;
+        height: 85%;
+        display: grid;
+        grid-template: 1fr 1fr/1fr 1fr 1fr 1fr 1fr;
+        border-radius: 10px;
+        margin:auto;
+    }
+    .divs_setting{
+        font-size: 9px;
+        display: flex;
+        flex-direction: column;
+        font-family: myfont-Yekan;
+        border: 2px solid #333;
+        border-radius: 10px;
+        margin: 2px;
+    }
+    .h4s_setting{
+        display: flex;
+        justify-content: center;
+    }
+}
+/* The End ================================================================= */
